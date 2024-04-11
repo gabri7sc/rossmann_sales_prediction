@@ -2,7 +2,7 @@ import os
 import pickle
 import pandas as pd
 from flask import Flask, request, Response
-from rossmann import Rossmann
+from rossmann.rossmann import Rossmann
 
 # loading model local Test
 
